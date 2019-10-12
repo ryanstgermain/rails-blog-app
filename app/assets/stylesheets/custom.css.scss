@@ -14,7 +14,7 @@ body {
     height: 550px;
 }
 
-h1, h2, p, th, td, a {
+h1, h2, th, td, a {
     color: #ffffff;
 }
 
@@ -61,6 +61,10 @@ h1, h2, p, th, td, a {
     width: 50%;
 }
 
+.edit-description-text {
+    color: black;
+}
+
 .btn-color {
     margin-top: 10px;
     color: #ffffff;
@@ -77,8 +81,13 @@ h1, h2, p, th, td, a {
     color: #ffffff;
 }
 
-.test {
-    float: left;
+.article-actions {
+    border-top: solid #262626 1px;
+    padding-top: 5px;
+}
+
+.description {
+    margin-top: 0;
 }
 
 .footer {
