@@ -65,3 +65,33 @@ h1, h2, p, th, td, a {
     color: #ffffff;
     background-color: #262626ee;
 }
+
+.footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: solid #ffffff 1px;
+    color: #262626ee;
+    background-color: #262626;
+    height: 3.5em;
+    padding: 1em;
+}
+
+.footer a:hover {
+    color: #b8b8b8;
+    text-decoration: none;
+}
+
+.footer ul {
+    float: right;
+    list-style: none;
+}
+
+.footer ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+.footer-font {
+    float: left;
+    color: #ffffff;
+}
