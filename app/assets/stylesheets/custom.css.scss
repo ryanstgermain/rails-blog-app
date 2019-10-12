@@ -30,16 +30,38 @@ h1, h2, p, th, td, a {
     text-align: center;
 }
 
-.jumbotron-paragraph {
+.jumbotron {
+    background-image: asset-url('jumbotronbg.jpg');
+    background-size: cover;
+    height: 550px;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    letter-spacing: -2px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron p {
+    border-bottom: solid #262626 0.5px;
+    text-align: center;
     color: #262626;
+    padding: 1em;
+}
+
+.container {
+    width: 50%;
 }
 
 .btn-color {
+    margin-top: 10px;
     color: #ffffff;
     background-color: #262626;
 }
 
 .btn-color:hover {
+    margin-top: 10px;
     color: #ffffff;
     background-color: #262626ee;
 }
