@@ -90,6 +90,17 @@ h1, h2, th, td, a {
     margin-top: 0;
 }
 
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-body {
+    border-top: solid #262626 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .footer {
     margin-top: 45px;
     padding-top: 5px;
