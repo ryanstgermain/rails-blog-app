@@ -5,6 +5,13 @@ $navbar-default-bg: #262626;
 
 body {
     background-color: #262626ee;
+    // height: 954px;
+    // height: 100%;
+    // min-height: 954px;
+}
+
+.body-height {
+    height: 550px;
 }
 
 h1, h2, p, th, td, a {
@@ -64,6 +71,10 @@ h1, h2, p, th, td, a {
     margin-top: 10px;
     color: #ffffff;
     background-color: #262626ee;
+}
+
+.form-label {
+    color: #ffffff;
 }
 
 .footer {
