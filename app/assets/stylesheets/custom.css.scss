@@ -129,6 +129,16 @@ h1, h2, h4, th, td, a {
     color: black;
 }
 
+.badge {
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.input_checkbox input {
+    width: auto !important;
+}
+
 .footer {
     // margin-top: 45px;
     // padding-top: 5px;
