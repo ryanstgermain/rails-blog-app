@@ -4,7 +4,12 @@ class UsersController < ApplicationController
     before_action :require_admin, only: [:destroy]
 
     def index
-        @users = User.paginate(page: params[:page], per_page: 5)
+        if !logged_in? || (logged_in? and !current_user.admin?)
+            flash[:danger] = "You are not allowed to access this page"
+            redirect_to root_path
+        else
+            @users = User.paginate(page: params[:page], per_page: 5)
+        end
     end
     
     def new

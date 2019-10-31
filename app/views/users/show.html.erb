@@ -6,6 +6,11 @@
         </div>
     </div>
     <h4 align="center"><%= @user.username%>'s articles</h4>
+    <% if logged_in? and current_user.admin? %>
+        <div align="center">
+            <a><%= link_to "Edit this profile", edit_user_path(@user) %></a>
+        </div>
+    <% end %>
     <div align="center">
         <%= will_paginate @user_articles %>
     </div>
